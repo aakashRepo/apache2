@@ -1,0 +1,6 @@
+---
+  - name: Start apache
+    service:
+         name={{package}}
+         state=started
+
